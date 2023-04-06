@@ -26,16 +26,16 @@ let tireTable = document.getElementById('tireTable');
 
 function calculateExpenses(income, miles) {
     let expenses = 0;
-    incomeTable.innerHTML = income;
-    distanceTable.innerHTML = miles;
-    commissionTable.innerHTML = (income * commission);
-    carTable.innerHTML = miles * carLoan
-    insuranceTable.innerHTML = miles * insurance;
-    phoneTable.innerHTML = Math.round((miles * phone) * 100) / 100
-    fuelTable.innerHTML = miles * fuel;
-    trailerTable.innerHTML = miles * trailer;
-    maintenanceTable.innerHTML = miles * maintenance;
-    tireTable.innerHTML = miles * tire;
+    incomeTable.innerHTML = Math.ceil(income);
+    distanceTable.innerHTML = Math.ceil(miles);
+    commissionTable.innerHTML = Math.ceil(income * commission);
+    carTable.innerHTML = Math.ceil(miles * carLoan);
+    insuranceTable.innerHTML = Math.ceil(miles * insurance);
+    phoneTable.innerHTML = Math.ceil(miles * phone);
+    fuelTable.innerHTML = Math.ceil(miles * fuel);
+    trailerTable.innerHTML = Math.ceil(miles * trailer);
+    maintenanceTable.innerHTML = Math.ceil(miles * maintenance);
+    tireTable.innerHTML = Math.ceil(miles * tire);
 
 
 
