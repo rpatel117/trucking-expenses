@@ -1,0 +1,28 @@
+      body {
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      label {
+        margin: 0.5rem 0;
+      }
+      incomeInput {
+        margin: 0.5rem 0;
+      }
+      milesInput {
+        margin: 0.5rem 0;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh; 
+      }
+      h1 {
+        margin: 0; 
+      }
