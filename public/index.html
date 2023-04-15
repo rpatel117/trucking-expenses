@@ -16,6 +16,8 @@
       <label for="milesInput">Miles will travel:</label>
       <input type="number" id="milesInput" name="milesInput"><br>
       <button type="button" id="submit" value="Hello World!">Click me!</button>
+      <label for="my-date-input">Choose a date:</label>
+      <input type="date" id="dateInput">
 
       
 
@@ -70,6 +72,14 @@
           </tr>
         </tbody>
       </table>
+      <h2 style='size: 15px;'>Report Generator</h2>
+      <div>
+      <input type="date" id="startDate">
+      <input type="date" id="endDate">
+      <button id="retrieveData">Retrieval</button>
+      </div>
+
+      <div id="expense-report"></div>
       
     </form>
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
@@ -77,3 +87,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+
